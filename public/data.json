@@ -1,0 +1,63 @@
+[
+      {
+        "id": 1,
+        "title": "Rock the Park Music Festival",
+        "name": "Rock the Park Music Festival",
+        "image": "https://i.ibb.co/4t401NN/card-01.jpg",
+        "price": 49.99,
+        "short_description": "A weekend of rock and roll in the great outdoors!",
+        "description": "Join us for the ultimate music festival experience. Rock the Park is a weekend-long event featuring top rock bands from around the world. Enjoy great music, delicious food, and a fantastic atmosphere. Don't miss out on the party of the year!",
+        "long_description": "Rock the Park Music Festival is a three-day extravaganza that celebrates the best in rock music. With a stunning lineup of legendary rock bands and emerging artists, this festival promises an unforgettable experience. From classic rock to modern hits, our stages will be rocking non-stop. Our festival grounds are set in a beautiful park, surrounded by nature, creating a unique and immersive environment. Enjoy a wide variety of food and beverage options, art installations, and interactive experiences. Tickets are on sale now for just $49.99, so grab yours today and get ready to rock out with friends and fellow music lovers. Whether you're a die-hard fan or just looking for a fun weekend getaway, Rock the Park has something for everyone. Come be part of the music, the energy, and the memories that will last a lifetime. We can't wait to see you there!"
+      },
+      {
+        "id": 2,
+        "title": "Comedy Night Extravaganza",
+        "name": "Comedy Night Extravaganza",
+        "image": "https://i.ibb.co/fHnh2b4/card-02.jpg",
+        "price": 29.99,
+        "short_description": "Laugh until your sides hurt with the funniest comedians in town!",
+        "description": "Get ready for a night of non-stop laughter at the Comedy Night Extravaganza. We've gathered the funniest comedians from around the country to deliver side-splitting jokes and hilarious anecdotes. It's the perfect night out with friends or a date night that guarantees smiles all around.",
+        "long_description": "The Comedy Night Extravaganza is your ticket to an evening filled with laughter and good times. Our lineup of comedians has been handpicked to ensure you'll be rolling in the aisles. Our venue is cozy and intimate, creating the perfect atmosphere for comedy. Grab a drink from our fully stocked bar and get ready to enjoy a night of stand-up, improv, and sketch comedy that will leave you in stitches. Tickets are available for just $29.99, and with our affordable prices, you can bring the whole gang along. Whether you're a fan of observational humor, witty one-liners, or outrageous characters, our comedians have it all. Don't miss out on the Comedy Night Extravaganza - reserve your seats now and prepare for a night of laughter!"
+      },
+      {
+        "id": 3,
+        "title": "Summer Movie Nights",
+        "name": "Summer Movie Nights",
+        "image": "https://i.ibb.co/RCjj49C/card-3.jpg",
+        "price": 12.99,
+        "short_description": "Enjoy classic films under the stars all summer long!",
+        "description": "Experience the magic of the silver screen under the night sky at Summer Movie Nights. We're bringing you a series of outdoor movie screenings featuring timeless classics and family favorites. Grab your blankets and popcorn, and join us for a cinematic adventure.",
+        "long_description": "Summer Movie Nights is the perfect way to spend warm summer evenings with family and friends. Our open-air screenings create a nostalgic atmosphere, and our selection of films will appeal to all ages. Tickets are affordably priced at just $12.99, making it an affordable outing for everyone. Each night features a different movie, so be sure to check our schedule for your favorite films. Bring your own snacks or indulge in our concession stand offerings. Don't forget to arrive early to secure the best seats, and get ready for a summer of movie magic!"
+      },
+      {
+        "id": 4,
+        "title": "Dance Extravaganza Showcase",
+        "name": "Dance Extravaganza Showcase",
+        "image": "https://i.ibb.co/LJv9N34/card-04.jpg",
+        "price": 34.99,
+        "short_description": "A dazzling display of dance talent from around the world!",
+        "description": "Join us for a night of breathtaking performances at the Dance Extravaganza Showcase. Dancers from across the globe will come together to dazzle you with their skill, creativity, and passion. It's a showcase you won't want to miss!",
+        "long_description": "The Dance Extravaganza Showcase is a celebration of dance in all its forms. From ballet to hip-hop, contemporary to traditional, our lineup represents a diverse range of styles and cultures. Our state-of-the-art venue provides the perfect stage for these extraordinary talents to shine. The energy, precision, and emotion of each performance will leave you mesmerized. Tickets for this unforgettable event are available for $34.99. Gather your friends and family for a night of artistry, expression, and pure entertainment. Let the dancers transport you to a world of beauty and grace."
+      },
+      {
+        "id": 5,
+        "title": "Foodie Fest",
+        "name": "Foodie Fest",
+        "image": "https://i.ibb.co/Lp5q1P2/card-05.jpg",
+        "price": 19.99,
+        "short_description": "A culinary adventure featuring the best local flavors!",
+        "description": "Satisfy your taste buds at Foodie Fest, where you'll discover a world of flavors from local chefs and food vendors. Indulge in mouthwatering dishes, artisanal treats, and international cuisines, all in one vibrant and delicious event.",
+        "long_description": "Foodie Fest is a food lover's paradise. Our event brings together a diverse range of culinary delights, from gourmet burgers and tacos to exotic desserts and handcrafted cocktails. With tickets priced at just $19.99, you can savor a wide variety of dishes without breaking the bank. Explore the food stalls, meet passionate chefs, and enjoy live music while you dine. Bring your appetite and your sense of culinary adventure. Foodie Fest is where food enthusiasts come together to celebrate the joy of eating!"
+      },
+      {
+        "id": 6,
+        "title": "Artists in the Park",
+        "name": "Artists in the Park",
+        "image": "https://i.ibb.co/wQ0S32f/new-06.jpg",
+        "price": 14.99,
+        "short_description": "A showcase of local artists and their creative works",
+        "description": "Immerse yourself in the world of art at Artists in the Park. This event features a diverse array of local artists displaying their paintings, sculptures, and crafts. Discover unique pieces, meet the artists, and take home a one-of-a-kind work of art.",
+        "long_description": "Artists in the Park is a celebration of creativity and talent. Our event transforms the park into an open-air art gallery where you can explore and appreciate the work of local artists. Admission is just $14.99, and it includes the opportunity to interact with artists, learn about their inspirations, and purchase unique artworks to enhance your living space."
+      }
+    ]
+    
