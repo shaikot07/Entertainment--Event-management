@@ -9,7 +9,6 @@ const Home = () => {
       console.log(data);
       return (
             <div>
-                  <div className="max-w-6xl mx-auto"> <Navbar></Navbar></div>
                   <Banner></Banner>
 
                   <div className="max-w-6xl mx-auto">
