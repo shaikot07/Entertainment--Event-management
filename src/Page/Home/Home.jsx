@@ -24,7 +24,7 @@ const Home = () => {
                               <div className=" grid grid-cols-1  md:grid-cols-3 gap-6">
 
                                     <div className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
-                                          <div className="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
+                                          <div  data-aos="fade-right" className="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
                                                 <p className="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
                                                       basics
                                                 </p>
@@ -36,31 +36,31 @@ const Home = () => {
                                           <div className="p-0">
                                                 <ul className="flex flex-col gap-4">
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   5 team members
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   200+ components
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   40+ built-in pages
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   1 year free updates
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   Life time technical support
                                                             </p>
@@ -90,31 +90,31 @@ const Home = () => {
                                           <div className="p-0">
                                                 <ul className="flex flex-col gap-4">
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   5 team members
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   200+ components
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   40+ built-in pages
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   1 year free updates
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   Life time technical support
                                                             </p>
@@ -144,25 +144,25 @@ const Home = () => {
                                           <div className="p-0">
                                                 <ul className="flex flex-col gap-4">
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   5 team members
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   200+ components
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   40+ built-in pages
                                                             </p>
                                                       </li>
                                                       <li className="flex items-center gap-4">
-                                                      <FaCircleCheck></FaCircleCheck>
+                                                            <FaCircleCheck></FaCircleCheck>
                                                             <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                                                                   1 year free updates
                                                             </p>
@@ -188,49 +188,51 @@ const Home = () => {
                               </div>
                         </div>
                         {/* upcomming event  */}
-                        <div className="mt-20 mb-20"><h2 className="text-4xl font-poppins font-bold text-center">Up coming Events</h2></div>
-                        <div className=" mt-10 mb-20 grid  grid-cols-1 md:grid-cols-3 gap-6">
-                              
-                              <div className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-                                    <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/BP1ZXMv/upc-03.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
-                                          <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
+                        <div>
+                              <div className="mt-20 mb-20"><h2 className="text-4xl font-poppins font-bold text-center">Up coming Events</h2></div>
+                              <div className=" mt-10 mb-20 grid  grid-cols-1 md:grid-cols-3 gap-6">
+
+                                    <div className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+                                          <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/BP1ZXMv/upc-03.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
+                                                <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
+                                          </div>
+                                          <div  data-aos="fade-up-right" className="relative p-6 py-14 px-6 md:px-12">
+                                                <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-[#EC4899] antialiased">
+                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, architecto.
+                                                </h2>
+                                                <h5 className="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-400 antialiased">
+                                                      Tania Andrew
+                                                </h5>
+
+                                          </div>
                                     </div>
-                                    <div className="relative p-6 py-14 px-6 md:px-12">
-                                          <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-[#EC4899] antialiased">
-                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, architecto.
-                                          </h2>
-                                          <h5 className="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-400 antialiased">
-                                                Tania Andrew
-                                          </h5>
-                                          
+                                    <div  data-aos="fade-up-left" className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+                                          <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/VYR13Cr/upc-02.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
+                                                <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
+                                          </div>
+                                          <div className="relative p-6 py-14 px-6 md:px-12">
+                                                <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-[#EC4899] antialiased">
+                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, architecto.
+                                                </h2>
+                                                <h5 className="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-400 antialiased">
+                                                      Tania Andrew
+                                                </h5>
+
+                                          </div>
                                     </div>
-                              </div>
-                              <div className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-                                    <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/VYR13Cr/upc-02.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
-                                          <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
-                                    </div>
-                                    <div className="relative p-6 py-14 px-6 md:px-12">
-                                          <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-[#EC4899] antialiased">
-                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, architecto.
-                                          </h2>
-                                          <h5 className="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-400 antialiased">
-                                                Tania Andrew
-                                          </h5>
-                                          
-                                    </div>
-                              </div>
-                              <div className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-                                    <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/SPksK2S/upc-01.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
-                                          <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
-                                    </div>
-                                    <div className="relative p-6 py-14 px-6 md:px-12">
-                                          <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-[#EC4899] antialiased">
-                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, architecto.
-                                          </h2>
-                                          <h5 className="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-400 antialiased">
-                                                Tania Andrew
-                                          </h5>
-                                          
+                                    <div className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+                                          <div  data-aos="fade-up-right" className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/SPksK2S/upc-01.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
+                                                <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
+                                          </div>
+                                          <div className="relative p-6 py-14 px-6 md:px-12">
+                                                <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-[#EC4899] antialiased">
+                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, architecto.
+                                                </h2>
+                                                <h5 className="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-400 antialiased">
+                                                      Tania Andrew
+                                                </h5>
+
+                                          </div>
                                     </div>
                               </div>
                         </div>

@@ -30,9 +30,10 @@ const AuthProvider = ({children}) => {
             const unSubscribe = onAuthStateChanged(auth,currentUser =>{
                   // console.log(currentUser);
                   setUser(currentUser)
+                  setLoading(false)
             })
             return ()=>{
-                  setLoading(false)
+                 
                   unSubscribe()
             }
       },[])
@@ -42,6 +43,7 @@ const AuthProvider = ({children}) => {
             logIn,
             logOut,
             user,
+            loading,
            
       }
       return (

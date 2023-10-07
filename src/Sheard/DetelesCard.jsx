@@ -24,7 +24,7 @@ const DetelesCard = () => {
             <div>
                  
                   <div className='mt-10 mb-20 text-center flex justify-center items-center'>
-                        <div className="relative flex w-[800px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                        <div className="relative flex w-[600px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                               <div className="relative  -mt-6 h-56 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                                     <img
                                           src={image}
