@@ -12,7 +12,8 @@ const Home = () => {
                   <Banner></Banner>
 
                   <div className="max-w-6xl mx-auto">
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-40 mb-20 space-y-10">
+                        <h2 className="text-4xl font-poppins font-bold text-center mt-20">Choose Your Event</h2>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20 mb-20 space-y-10">
                               {
                                     data.map(ndata => <EventsCard key={ndata.id} data={ndata}></EventsCard>)
                               }
@@ -187,7 +188,9 @@ const Home = () => {
                               </div>
                         </div>
                         {/* upcomming event  */}
+                        <div className="mt-20 mb-20"><h2 className="text-4xl font-poppins font-bold text-center">Up coming Events</h2></div>
                         <div className=" mt-10 mb-20 grid  grid-cols-1 md:grid-cols-3 gap-6">
+                              
                               <div className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
                                     <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/BP1ZXMv/upc-03.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
                                           <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
