@@ -6,7 +6,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const Home = () => {
       const data = useLoaderData()
-      console.log(data);
+      // console.log(data);
       return (
             <div>
                   <Banner></Banner>
