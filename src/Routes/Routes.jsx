@@ -6,6 +6,7 @@ import Events from "../Page/Eventss/events";
 import Login from "../Page/Login/Login";
 import Register from "../Page/Register/Register";
 import DetelesCard from "../Sheard/DetelesCard";
+import PrivateRoute from "./PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -21,15 +22,15 @@ const router = createBrowserRouter([
                   },
                   {
                         path:'/deteles/:id',
-                        element:<DetelesCard></DetelesCard>
+                        element:<PrivateRoute><DetelesCard></DetelesCard></PrivateRoute>
                   },
                   {
                         path:'/contact',
-                        element:<Contact></Contact>
+                        element:<PrivateRoute><Contact></Contact></PrivateRoute>
                   },
                   {
                         path:'/event',
-                        element:<Events></Events>
+                        element:<PrivateRoute><Events></Events></PrivateRoute>
                   },
                   {
                         path:'/login',
