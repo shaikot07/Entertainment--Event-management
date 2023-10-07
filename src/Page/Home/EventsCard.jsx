@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const EventsCard = ({ data }) => {
       const { id, title, image, price, short_description } = data || {}
       return (
-            <div className="flex  flex-col max-h-[400px] rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div className="flex mb-8 flex-col  rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                   <div className=" -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white  ">
-                        <img
+                        <img className='h-[250px] w-full'
                               src={image}
                               alt="img-blur-shadow"
 

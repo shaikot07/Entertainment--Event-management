@@ -7,3 +7,6 @@ Heres some Futures
 3.added private route .if You arew not login ? you dont visite thi route
 4.added password veryfied and error show in the ui 
 5. all site are  full responsive for mobile and tablet
+
+
+LIVE SITE LINK: https://entertainment-management-ph-9.netlify.app/
