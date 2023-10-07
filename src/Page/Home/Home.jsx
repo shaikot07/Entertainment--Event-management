@@ -11,7 +11,7 @@ const Home = () => {
             <div>
                   <Banner></Banner>
 
-                  <div className="max-w-6xl mx-auto px-6">
+                  <div className="max-w-6xl mx-auto px-4">
                         <h2 className="text-4xl font-poppins font-bold text-center mt-20">Choose Your Event</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20 mb-20 space-y-10">
                               {
