@@ -1,16 +1,17 @@
 import React, { Children, useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../provider/AuthProvider';
-import { GoogleAuthProvider, getAuth, signInWithPopup } from 'firebase/auth';
+import { GithubAuthProvider, GoogleAuthProvider, getAuth, signInWithPopup } from 'firebase/auth';
 import app from '../../firebase/firebase.config';
 import toast from 'react-hot-toast';
-
+import { FaGoogle,FaSquareGithub } from "react-icons/fa6";
 const Register = () => {
       const {createUser}=useContext(AuthContext)
       const [showError, setShowError] = useState('')
       const [success,setSuccess] = useState('')
       const navigate = useNavigate()
-      const provider = new GoogleAuthProvider()
+      const googleProvider = new GoogleAuthProvider()
+      const githubProvider = new GithubAuthProvider()
       const auth = getAuth(app)
 
       const handleRegister = e =>{
@@ -40,7 +41,18 @@ const Register = () => {
       }
 
       const googleLogIn= () =>{
-            signInWithPopup(auth,provider)
+            signInWithPopup(auth,googleProvider)
+                  .then(res =>{
+                        toast.success('Log in success')
+                        navigate("/")
+                       
+                  })
+                  .catch(error =>{
+                        toast.error('something Rowing')
+                  })
+      }
+      const githubLogIn=()=>{
+            signInWithPopup(auth,githubProvider)
                   .then(res =>{
                         toast.success('Log in success')
                         navigate("/")
@@ -87,8 +99,9 @@ const Register = () => {
                                     <div className="form-control mt-6">
                                           <button className="btn bg-[#EC4899] text-white hover:bg-[#751b48]">Register</button>
                                     </div>
-                                    <div>
-                                          <button onClick={googleLogIn} className='bg-[#EC4899] text-white hover:bg-[#751b48]'>Log in with Google</button>
+                                    <div className='flex  justify-center items-center gap-6'>
+                                          <button onClick={googleLogIn} className=''><FaGoogle className='text-3xl text-[#EC4899]'></FaGoogle></button>
+                                          <button onClick={githubLogIn} className=' '><FaSquareGithub className='text-3xl text-[#EC4899]'></FaSquareGithub></button>
                                     </div>
                               </form>
                         </div>
