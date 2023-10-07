@@ -1,8 +1,9 @@
-# React + Vite
+            my project name is Entertainment Events
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Heres some Futures
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. i make responsive navbar
+2. dynamic data loade for card
+3.added private route .if You arew not login ? you dont visite thi route
+4.added password veryfied and error show in the ui 
+5. all site are  full responsive for mobile and tablet
