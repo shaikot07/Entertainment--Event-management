@@ -10,7 +10,7 @@ const DetelesCard = () => {
       const [useData, setUseData] = useState({})
       const { image, price, title, long_description } = useData || {}
       useEffect(() => {
-            fetch('../../public/data.json')
+            fetch('/data.json')
                   .then((res) => res.json())
                   .then((data) => {
                         setDetelesData(data);
